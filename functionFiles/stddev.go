@@ -2,10 +2,12 @@ package functionFiles
 
 import "math"
 
+// calculates standard deviation from variance
 func Stddev(variance float64) float64 {
 	return math.Sqrt(variance)
 }
 
+// calculates variance from mean
 func Variance(nums []float64) float64 {
 	lenNum := len(nums)
 	var sum float64

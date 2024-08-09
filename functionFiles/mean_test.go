@@ -14,6 +14,11 @@ func TestMean(t *testing.T) {
 		{
 			name: "Single element",
 			args: args{numslice: []float64{10.0}},
+			want: 10,
+		},
+		{
+			name: "Single element",
+			args: args{numslice: []float64{10.0}},
 			want: 10.0,
 		},
 		{
